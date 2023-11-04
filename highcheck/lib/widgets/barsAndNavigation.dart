@@ -1,19 +1,21 @@
+// ignore_for_file: library_private_types_in_public_api, file_names
+
 import 'package:flutter/material.dart';
 import 'package:help/calendar.dart';
 import 'package:help/home.dart';
 import 'package:help/settings.dart';
 import 'package:help/widgets/palette.dart';
 
-class BottomNav extends StatefulWidget {
-  const BottomNav({required this.selectedIndex, super.key});
+class BarsAndNavigation extends StatefulWidget {
+  const BarsAndNavigation({required this.selectedIndex, super.key});
 
   final int selectedIndex;
 
   @override
-  _BottomNav createState() => _BottomNav();
+  _BarsAndNavigation createState() => _BarsAndNavigation();
 }
 
-class _BottomNav extends State<BottomNav> {
+class _BarsAndNavigation extends State<BarsAndNavigation> {
   int _selectedIndex = -1;
   @override
   void initState() {
@@ -54,7 +56,7 @@ class _BottomNav extends State<BottomNav> {
       bottomNavigationBar: BottomNavigationBar(
           currentIndex: _selectedIndex,
           onTap: _onItemTapped,
-          selectedItemColor: palette['highlight'],
+          selectedItemColor: palette['highlight2'],
           showUnselectedLabels: true,
           backgroundColor: palette['appBar'],
           unselectedItemColor: palette['text'],

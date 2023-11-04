@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:help/widgets/bottomNav.dart';
+import 'package:help/widgets/barsAndNavigation.dart';
+import 'package:help/widgets/palette.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +14,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'HighCheck',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,   
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        scaffoldBackgroundColor: palette['background'],
         useMaterial3: true,
       ),
-      home: const BottomNav(selectedIndex: 0),
+      home: const BarsAndNavigation(selectedIndex: 0),
     );
   }
 }
