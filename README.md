@@ -31,12 +31,11 @@ Launch your emulator
 
 * List of Late tasks
 * List of tasks for the day
-    * 
 * List of tasks for the week
     * How many days until that task completion day
 * List of tasks for the month
     * How many days until that tasks completion day
-* this page allows the user to check off the tasks as either completed or "ignore"
+* This page allows the user to check off the tasks as either completed or "ignore"
 
 ## Calendar page
 
@@ -47,7 +46,10 @@ Launch your emulator
 
 ## Settings page
 
-* let the user choose their prefferred palette
-* a page that shows the user's accomplishments for the day, week, month, year  
-    * this would be a bar chart that would show the amount of accomplished, late, "uncompleted" tasks for each category
+* Let the user choose their prefferred palette
+* A page that shows the user's accomplishments for the day, week, month, year  
+    * This would be a bar chart that would show the amount of accomplished, late, "uncompleted" tasks for each category
 
+# Rough Designs
+
+https://whimsical.com/WWpCYLiGJPii4Q6JeHJkQS
