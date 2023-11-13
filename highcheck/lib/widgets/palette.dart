@@ -28,7 +28,7 @@ Map<String, Color> lavendarPalette = <String, Color>{
   'onSurface': const Color(0xff1B1B22),
   'surfaceVariant': const Color(0xffB9B0CC),
   'onSurfaceVariant': const Color(0xffd849454e),
-  'outl              ine': const Color(0xff7B46AF),
+  'outline': const Color(0xff7B46AF),
   'inverseOnSurface': const Color(0xffF3EFF4),
   'inverseSurface': const Color(0xff313033),
   'primaryInverse': const Color(0xffD6BAFF),

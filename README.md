@@ -1,6 +1,6 @@
 # HighCheck
-Little CheckList app I am making for myself
-The main goal of this project is to familiarize myself with storing json locally on a machine and a calendar package called Calendar_table. 
+Little CheckList app I am making for myself.
+ The main goal of this project is to familiarize myself with storing json locally on a machine and a calendar package called Calendar_table. 
 The project is made using Flutter / Dart and is compatatble with both Android and iOS. 
 
 # How to run the application
