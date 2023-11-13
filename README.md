@@ -37,6 +37,13 @@ Launch your emulator
     * How many days until that tasks completion day
 * This page allows the user to check off the tasks as either completed or "ignore"
 
+### Need to do UI
+
+* Create the container for each list type
+    * Create the expanded version
+* create the popup for the task creation
+* Create the popup for the viewing the task
+
 ## Calendar page
 
 * Use the calendar table package to display a calendar - **DONE**
@@ -49,6 +56,12 @@ Launch your emulator
 * Let the user choose their prefferred palette
 * A page that shows the user's accomplishments for the day, week, month, year  
     * This would be a bar chart that would show the amount of accomplished, late, "uncompleted" tasks for each category
+
+### Need to do UI
+
+* Create the horizontal scroll for the themes
+* Create the horiztonal scroll for the bar charts
+    * Create the bar charts and their containers
 
 # Rough Designs
 
