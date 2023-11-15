@@ -1,7 +1,7 @@
 # HighCheck
 Little CheckList app I am making for myself.
- The main goal of this project is to familiarize myself with storing json locally on a machine and a calendar package called Calendar_table. 
-The project is made using Flutter / Dart and is compatatble with both Android and iOS. 
+The main goal of this project is to familiarize myself with storing json locally on a machine and a calendar package called Calendar_table. 
+The project is made using Flutter / Dart and is compatible with both Android and iOS. 
 
 # How to run the application
 Have Flutter requirements installed: 
@@ -53,14 +53,14 @@ Launch your emulator
 
 ## Settings page
 
-* Let the user choose their prefferred palette
+* Let the user choose their preferred palette
 * A page that shows the user's accomplishments for the day, week, month, year  
     * This would be a bar chart that would show the amount of accomplished, late, "uncompleted" tasks for each category
 
 ### Need to do UI
 
 * Create the horizontal scroll for the themes
-* Create the horiztonal scroll for the bar charts
+* Create the horizontal scroll for the bar charts
     * Create the bar charts and their containers
 
 # Rough Designs

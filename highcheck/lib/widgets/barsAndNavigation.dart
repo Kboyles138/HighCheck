@@ -33,7 +33,7 @@ class _BarsAndNavigation extends State<BarsAndNavigation> {
   Widget build(final BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: lavendarPalette['onSurface'],
+        backgroundColor: lavenderPalette['onSurface'],
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 15),
@@ -41,7 +41,7 @@ class _BarsAndNavigation extends State<BarsAndNavigation> {
               icon:  Icon(
                 Icons.add_circle_outline,
                 size: 38,
-                color: lavendarPalette['primary'],
+                color: lavenderPalette['primary'],
               ),
               tooltip: 'Add new task',
               onPressed: () {
@@ -55,10 +55,10 @@ class _BarsAndNavigation extends State<BarsAndNavigation> {
       bottomNavigationBar: BottomNavigationBar(
           currentIndex: _selectedIndex,
           onTap: _onItemTapped,
-          selectedItemColor: lavendarPalette['primary'],
+          selectedItemColor: lavenderPalette['primary'],
           showUnselectedLabels: true,
-          backgroundColor: lavendarPalette['onSurface'],
-          unselectedItemColor: lavendarPalette['primary'],
+          backgroundColor: lavenderPalette['onSurface'],
+          unselectedItemColor: lavenderPalette['primary'],
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
                 icon: Icon(Icons.home, size: 38), label: 'Home'),

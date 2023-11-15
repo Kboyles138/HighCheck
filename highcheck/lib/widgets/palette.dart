@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 //   'highlight2': const Color(0xff7A9CC6),
 // };
 
-Map<String, Color> lavendarPalette = <String, Color>{
+Map<String, Color> lavenderPalette = <String, Color>{
   'primary': const Color(0xff7b46af),
   'onPrimary': const Color(0xffEDE2FF),
   'primaryContainer': const Color(0xff7B46AF),

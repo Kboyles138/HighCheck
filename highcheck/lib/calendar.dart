@@ -74,36 +74,36 @@ class _CalendarState extends State<Calendar> {
               titleCentered: true,
               leftChevronIcon: Icon(
                 Icons.chevron_left,
-                color: lavendarPalette['onSecondary'],
+                color: lavenderPalette['onSecondary'],
               ),
               rightChevronIcon: Icon(
                 Icons.chevron_right,
-                color: lavendarPalette['onSecondary'],
+                color: lavenderPalette['onSecondary'],
               ),
               formatButtonVisible: false,
               titleTextStyle: TextStyle(
-                  color: lavendarPalette['onSecondary'], fontSize: 24)),
+                  color: lavenderPalette['onSecondary'], fontSize: 24)),
           daysOfWeekStyle: DaysOfWeekStyle(
-              weekdayStyle: TextStyle(color: lavendarPalette['onSecondary']),
-              weekendStyle: TextStyle(color: lavendarPalette['onSecondary'])),
+              weekdayStyle: TextStyle(color: lavenderPalette['onSecondary']),
+              weekendStyle: TextStyle(color: lavenderPalette['onSecondary'])),
           calendarStyle: CalendarStyle(
             markerDecoration: BoxDecoration(
-                shape: BoxShape.circle, color: lavendarPalette['primary']),
+                shape: BoxShape.circle, color: lavenderPalette['primary']),
             todayTextStyle:
-                TextStyle(color: lavendarPalette['onSurfaceVariant']),
+                TextStyle(color: lavenderPalette['onSurfaceVariant']),
             todayDecoration: BoxDecoration(
-              color: lavendarPalette['primaryInverse'],
+              color: lavenderPalette['primaryInverse'],
               shape: BoxShape.circle,
             ),
             selectedTextStyle:
-                TextStyle(color: lavendarPalette['onSurfaceVariant']),
+                TextStyle(color: lavenderPalette['onSurfaceVariant']),
             selectedDecoration: BoxDecoration(
-                color: lavendarPalette['primaryInverse'],
+                color: lavenderPalette['primaryInverse'],
                 shape: BoxShape.circle),
-            weekNumberTextStyle: TextStyle(color: lavendarPalette['onPrimary']),
-            weekendTextStyle: TextStyle(color: lavendarPalette['onPrimary']),
-            outsideTextStyle: TextStyle(color: lavendarPalette['primary']),
-            defaultTextStyle: TextStyle(color: lavendarPalette['onPrimary']),
+            weekNumberTextStyle: TextStyle(color: lavenderPalette['onPrimary']),
+            weekendTextStyle: TextStyle(color: lavenderPalette['onPrimary']),
+            outsideTextStyle: TextStyle(color: lavenderPalette['primary']),
+            defaultTextStyle: TextStyle(color: lavenderPalette['onPrimary']),
           ),
         ),
         const SizedBox(height: 8.0),
@@ -120,14 +120,14 @@ class _CalendarState extends State<Calendar> {
                       vertical: 4.0,
                     ),
                     decoration: BoxDecoration(
-                      border: Border.all(color: lavendarPalette['primary']!),
+                      border: Border.all(color: lavenderPalette['primary']!),
                       borderRadius: BorderRadius.circular(12.0),
                     ),
                     child: ListTile(
                       onTap: () => print('${value[index]}'),
                       title: Text(
                         '${value[index]}',
-                        style: TextStyle(color: lavendarPalette['onPrimary']),
+                        style: TextStyle(color: lavenderPalette['onPrimary']),
                       ),
                     ),
                   );

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'HighCheck',
       debugShowCheckedModeBanner: false,   
       theme: ThemeData(
-        scaffoldBackgroundColor: lavendarPalette['onSurfaceVariant'],
+        scaffoldBackgroundColor: lavenderPalette['onSurfaceVariant'],
         useMaterial3: true,
       ),
       home: const BarsAndNavigation(selectedIndex: 0),
