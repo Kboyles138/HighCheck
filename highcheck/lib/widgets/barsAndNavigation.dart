@@ -32,17 +32,19 @@ class _BarsAndNavigation extends State<BarsAndNavigation> {
   @override
   Widget build(final BuildContext context) {
     return Scaffold(
+      // top bar layout
       appBar: AppBar(
         backgroundColor: lavenderPalette['onSurface'],
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 15),
             child: IconButton(
-              icon:  Icon(
+              icon: Icon(
                 Icons.add_circle_outline,
                 size: 38,
                 color: lavenderPalette['primary'],
               ),
+              // add new task button
               tooltip: 'Add new task',
               onPressed: () {
                 ScaffoldMessenger.of(context).showSnackBar(
@@ -52,6 +54,7 @@ class _BarsAndNavigation extends State<BarsAndNavigation> {
           )
         ],
       ),
+      // bottom nav bar layout and navigation for the app
       bottomNavigationBar: BottomNavigationBar(
           currentIndex: _selectedIndex,
           onTap: _onItemTapped,
@@ -67,6 +70,7 @@ class _BarsAndNavigation extends State<BarsAndNavigation> {
             BottomNavigationBarItem(
                 icon: Icon(Icons.settings, size: 38), label: 'Settings')
           ]),
+      // body holds the three pages we currently have available
       body: [
         const MyHomePage(),
         const Calendar(),

@@ -39,7 +39,7 @@ Launch your emulator
 
 ### Need to do UI
 
-* Create the container for each list type
+* Create the container for each list type **partially done** 
     * Create the expanded version
 * create the popup for the task creation
 * Create the popup for the viewing the task
